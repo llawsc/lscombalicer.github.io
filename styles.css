@@ -1,4 +1,4 @@
-body {
+body { /*changes the color of the background*/
     background-color: #FFFFFF;
     margin: 0px;
     color: #0e1111;
@@ -13,26 +13,26 @@ h4 { /*for the text in the projects section*/
     font-size: 25px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h5 {
+h5 { /*for the text in the autobiography section*/
     font-size: 22px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px;
 }
-#bio {
+#bio { /*for the text in the autobiography section*/
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
-a {
+a { /*removes the underline in the buttons for the header*/
     color:#0e1111;
     text-decoration: none;
 }
-#title {
+#title { /*customizes the title*/
     font-size: 60px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 60px;
 }
-nav {
+nav { /*customizes the header or navigation bar*/
     display: flex;
     background: rgb(255,229,180);
     background: linear-gradient(180deg, rgba(255,229,180,1) 70%, rgba(255,255,255,1) 100%);
@@ -43,7 +43,7 @@ nav {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.button {
+.button { /*customizes the buttons in the header section*/
     display: flex;
     flex-wrap: wrap;
     font-size: 32px;
@@ -52,25 +52,24 @@ nav {
     justify-content: space-evenly;
     margin-bottom: 15px;
 }
-#logo {
+#logo { /*customizes the logo*/
     height: 100px;
     border-radius: 50%;
 }
-#me {
+#me { /*customizes the main picture*/
     height: 400px; 
     border-radius: 50%;
     border-width: 5px;
     border-color: #0e1111;
     border-style: solid;
 }
-.project {
+.project { /*customizes the pictures of the project*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .project-item {
-    /* margin: auto; */
     border-style: solid;
     border-width: 2px;
     border-color: #0e1111;
@@ -78,16 +77,13 @@ nav {
 }
 .project-item1, .project-item2, .project-item3 {
     width: 30%;
-    /* border-style: solid;
-    border-width: 2px;
-    border-color: #0e1111; */
     padding: 20px;
 }
-.featPhoto {
+.featPhoto { /*customizes the main picture*/
     display: flex;
     justify-content: center;
 }
-.information {
+.information { /*customizes the skills and the autobiography section*/
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -120,7 +116,7 @@ nav {
     border-color: #0e1111;
     text-align: left;
 }
-.footer {
+.footer { /*customizes the footer section*/
     display: flex;
     height: 250px;
     background: rgb(255,229,180);

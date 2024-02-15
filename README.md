@@ -2,7 +2,7 @@
 
 **Degree Program**: BS Computer Science
 
-**Link**: 
+**Link**: https://llawsc.github.io/lscombalicer.github.io/
 
 **Steps on how to create GitHub Page**:
 
